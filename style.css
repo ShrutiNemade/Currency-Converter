@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    color:rgb(64, 19, 74); ;
+}
+h1{
+    margin-bottom: 1rem;
+}
+body{
+    margin-top:5rem;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9cd;
+}
+.container{
+    padding:1rem 1rem 1rem 1rem;
+    background-color: rgb(252, 252, 252);
+      height:50vh;
+      width:20vw; 
+      border-radius:15px;  
+      border:2px solid rgb(64,19,74)          
+}
+.amount-box ,.exchange-btn{
+  
+    border:none;
+    border:1px solid rgb(64, 19, 74);
+    border-radius: 15px;
+    height:2.5rem;
+    width:97%;
+    margin-top: 1rem;
+   
+}
+.exchange-btn{
+    color: #ffffff;
+    background-color: rgb(64, 19, 74);
+    font-size: larger;
+}
+.amount{
+    min-height:5rem ;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+.dropdown{
+
+display: flex;
+justify-content: space-between;
+min-height:8rem ;
+}
+.from,.to{
+display:flex;
+margin-top: 2rem;
+height: 2.5rem;
+background-color: rgb(250, 251, 252);
+justify-content: center;
+align-items: center;
+border-radius: 7px;
+border:1px solid rgb(203, 177, 208);
+}
+.exchange-icon i{
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+.options{
+    height:2rem;
+    border: none;
+
+}
